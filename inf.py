@@ -28,7 +28,7 @@ clip_data = {
     'No Sparsity MACE':[27.3, 27.3, 27.3, 27.3, 27.3, 27.3, 27.3, 27.3],
     'MACE':           [27.3,28.9, 30.4, 31.1,27.7,25.4,24.3, 20.1],
 }
-
+print("data_collecet finished")
 # 定义分组及对应属性
 groups = {
     'ESD': ['No Sparsity ESD', 'ESD'],
@@ -36,7 +36,7 @@ groups = {
     'MACE': ['No Sparsity MACE', 'MACE'],
 }
 markers = {'ESD': 'o', 'MACE': 's', 'SPM': '^'}
-
+print("group is set to be correct method finished")
 # 全局样式
 sns.set_theme(style="whitegrid", rc={
     'axes.titlesize': 16,
@@ -100,3 +100,5 @@ for ext in ('png', 'pdf'):
     print(f"Saved to {out_path}")
 
 plt.show()
+print("drawing finished")
+print("finshed end")
