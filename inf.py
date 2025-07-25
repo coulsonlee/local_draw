@@ -100,5 +100,3 @@ for ext in ('png', 'pdf'):
     print(f"Saved to {out_path}")
 
 plt.show()
-print("drawing finished")
-print("finshed end")
