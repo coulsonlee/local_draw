@@ -3,7 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.lines import Line2D
-
+l = [1,2,3,45]
+for i in l:
+    print(i)
 # ---------- 用户可配置 ----------
 use_smooth = False   # True: 平滑拟合；False: 原始连线
 save_dir = 'save'
